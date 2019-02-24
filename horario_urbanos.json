@@ -246,12 +246,23 @@
       "lineas": [
         {
           "linea": 1,
-          "trayectos": [
+          "tipo_dia":[
             {
-              "trayecto": "ida",
-              "horarios": [
-                "14:34"
-              ]
+              "dia":"laboral",
+              "trayectos": [
+                {
+                  "trayecto": "ida",
+                  "horarios": [
+                    "14:34"
+                  ]
+                },
+                {
+                  "trayecto":"vuelta",
+                  "horarios": [
+                    "8:05"
+                  ]
+                }
+              ]   
             }
           ]
         }
